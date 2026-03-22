@@ -23,7 +23,5 @@ printf("Taille des types en C (en octets) :\n\n");
     printf("float : %zu octets\n", sizeof(float));
     printf("double : %zu octets\n", sizeof(double));
     printf("long double : %zu octets\n", sizeof(long double));
-
-    return 0;
 }
 
