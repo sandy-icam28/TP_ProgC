@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-  double a = 16;
-  double b = 3;
-  printf("a + b = %f\n", a+b);
-  printf("a - b = %f\n", a-b);
-  printf("a * b = %f\n", a*b),
+  int a = 16;
+  int b = 3;
+  printf("a + b = %d\n", a+b);
+  printf("a - b = %d\n", a-b);
+  printf("a * b = %d\n", a*b),
   printf("a / b = %f\n", a/b);
-  printf("reste de a / b = %f\n", a%b);
+  printf("reste de a / b = %d\n", a%b);
 }
