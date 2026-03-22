@@ -4,4 +4,8 @@ int main() {
   double a = 16;
   double b = 3;
   printf("a + b = %f\n", a+b);
+  printf("a - b = %f\n", a-b);
+  printf("a * b = %f\n", a*b),
+  printf("a / b = %f\n", a/b);
+  printf("reste de a / b = %f\n", a%b);
 }
