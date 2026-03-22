@@ -34,6 +34,4 @@ int main() {
     printf("float : %f\n", f);
     printf("double : %lf\n", d);
     printf("long double : %Lf\n", ld);
-
-    return 0;
 }
