@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int compteur = 9; 
+    int compteur = 5; 
     if (compteur >=10) {
         printf("Compteur doit etre strictement inferieur à 10");
     } else {
