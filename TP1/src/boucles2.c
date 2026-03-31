@@ -1,21 +1,24 @@
 #include <stdio.h>
 
-int compteur = 5; // doit être strictement inférieur à 10
-
-    int i = 1;
-    while (i <= compteur) {
-        int j = 1;
-        while (j <= i) {
-            if (j == 1 || j == i || i == compteur) {
-                printf("* ");
-            } else {
-                printf("# ");
+int main() {
+    int compteur = 9; 
+    if (compteur >=10) {
+        printf("Compteur doit etre strictement inferieur à 10");
+    } else {
+        int i = 1;
+        while (i <= compteur) {
+            int j = 1;
+            while (j <= i) {
+                if (j == 1 || j == i || i == compteur) {
+                    printf("* ");
+                } else {
+                    printf("# ");
+                }
+                j++;
             }
-            j++;
+            printf("\n");
+            i++;
         }
-        printf("\n");
-        i++;
     }
-
     return 0;
 }
